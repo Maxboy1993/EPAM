@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ff5c6e-ffa4-4b94-ac83-c2ec4c087f88" name="Default Changelist" comment="" />
+    <list default="true" id="a1ff5c6e-ffa4-4b94-ac83-c2ec4c087f88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f48d6165cb4dae92d41616cb95ca329c593aed6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/3854fe0dde3fcd5a395b915acd1d117fa9c86d05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/585b6972c22e7e92283b568406d3b3be7038bf6b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/694a3676ca4f7564a6b6e771fb99f3b5275bdce5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69a8d1afc9148891e1a4c6e8d5950d95084937b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdaa1602494862cb8da1a3018356f8c3f7730b0a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2f02fcae5b1f53388d432b5a2e20292f6282329" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe654bd457e8a0225670c8147cc0a06a905b9ca1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Ferry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Ferry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/generator/VehicleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/generator/VehicleGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZhSQSzhuPpMjss9uoCVjDV9zdx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,12 +61,14 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/by/nareiko/shape/lib/testng-7.0.0.jar!/" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/by/nareiko" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -219,6 +240,7 @@
       <workItem from="1589029593095" duration="3863000" />
       <workItem from="1589092320356" duration="4442000" />
       <workItem from="1589126218617" duration="4841000" />
+      <workItem from="1589352666807" duration="1401000" />
     </task>
     <servers />
   </component>
@@ -306,6 +328,10 @@
     </state>
     <state x="0" y="0" key="SettingsEditor/0.0.1024.738@0.0.1024.738" timestamp="1586275798241" />
     <state x="121" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1586330985993" />
+    <state x="449" y="125" key="chooseDestDirectoryDialog" timestamp="1589352766781">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="449" y="125" key="chooseDestDirectoryDialog/0.0.1280.689@0.0.1280.689" timestamp="1589352766781" />
     <state x="340" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1586594394062">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

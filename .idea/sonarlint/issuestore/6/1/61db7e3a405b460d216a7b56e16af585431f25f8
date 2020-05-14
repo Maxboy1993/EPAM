@@ -1,0 +1,21 @@
+
+O
+java:S2274A":Remove this call to "wait" or move it into a "while" loop.(ç£ŠM
+>
+java:S1148^"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\
+java:S2142]"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+T
+java:S2589""7Remove this expression which always evaluates to "true"(ªÝÑì8Ü»Ïæ .
+\
+java:S3457U"AFormat specifiers should be used instead of string concatenation.(é¡¡œüÿÿÿÿ
+>
+java:S1148F"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+]
+java:S2274[";Remove this call to "await" or move it into a "while" loop.(×œªìþÿÿÿÿ8Ñ‡Ûæ .
+\
+java:S2142E"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+…
+java:S2273:"cMove this call to "notifyAll()" into a synchronized block to be sure the monitor on "this" is held.(µ˜©èùÿÿÿÿ8¦´Òæ .
+z
+java:S2273A"^Move this call to "wait()" into a synchronized block to be sure the monitor on "this" is held.(ç£ŠM8¦´Òæ .

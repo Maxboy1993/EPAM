@@ -1,4 +1,4 @@
-package by.nareiko.multuthreading.entity;
+package by.nareiko.multithreading.entity;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,6 +6,9 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayDeque;
 import java.util.Optional;
 import java.util.Queue;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 
 public class Ferry {
@@ -16,6 +19,8 @@ public class Ferry {
     private int vehiclesInQueueCount;
     private Queue<Vehicle> loadedVehicles = new ArrayDeque<>();
     private Queue<Vehicle> waitingVehicles = new ArrayDeque<>();
+    private static Lock lock = new ReentrantLock(true);
+    private Condition condition = lock.newCondition();
 
     private static Logger logger = LogManager.getLogger();
 
@@ -24,16 +29,21 @@ public class Ferry {
 
     public static Ferry getInstance() {
         if (ferry == null) {
-            synchronized (Ferry.class) {
-                if (ferry == null) {
-                    ferry = new Ferry();
-                }
+            try {
+                lock.lock();
+                    if (ferry == null) {
+                        ferry = new Ferry();
+                    }
+            }finally {
+                lock.unlock();
             }
         }
         return ferry;
     }
 
-    public synchronized void addVehicle(Vehicle vehicle) {
+    public void addVehicle(Vehicle vehicle) {
+        try {
+            lock.lock();
         double weight = 0;
         double area = 0;
         for (Vehicle element : loadedVehicles
@@ -43,7 +53,7 @@ public class Ferry {
         }
         double fullWeight = weight + vehicle.getWeight();
         double fullArea = area + vehicle.getArea();
-        try {
+
             if (fullWeight <= FERRY_WEIGHT_CAPACITY && fullArea <= FERRY_AREA_CAPACITY) {
                 notifyAll();
                 loadedVehicles.add(vehicle);
@@ -58,13 +68,16 @@ public class Ferry {
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }finally {
+            lock.unlock();
         }
     }
 
-    public synchronized Optional<Vehicle> getVehicle(int id) {
+    public  Optional<Vehicle> getVehicle(int id) {
         try{
+            lock.lock();
         if (vehiclesOnFerryCount > 0) {
-            notifyAll();
+            condition.signalAll();
             for (Vehicle element : loadedVehicles
             ) {
                 if (id == element.getId()) {
@@ -75,10 +88,12 @@ public class Ferry {
                 }
             }
         }else {
-            wait();
+            condition.await();
         }
         }catch (InterruptedException e){
             e.printStackTrace();
+        }finally {
+            lock.unlock();
         }
         return Optional.empty();
     }

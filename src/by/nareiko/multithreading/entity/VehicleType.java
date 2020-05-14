@@ -1,4 +1,4 @@
-package by.nareiko.multuthreading.entity;
+package by.nareiko.multithreading.entity;
 
 public enum  VehicleType {
     TRUCK(5, 5), PASSENGER(1, 1);

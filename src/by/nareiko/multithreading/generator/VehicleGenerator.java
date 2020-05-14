@@ -1,8 +1,10 @@
-package by.nareiko.multuthreading.generator;
+package by.nareiko.multithreading.generator;
 
-import by.nareiko.multuthreading.entity.Ferry;
-import by.nareiko.multuthreading.entity.Vehicle;
-import by.nareiko.multuthreading.entity.VehicleType;
+
+
+import by.nareiko.multithreading.entity.Ferry;
+import by.nareiko.multithreading.entity.Vehicle;
+import by.nareiko.multithreading.entity.VehicleType;
 
 import java.util.ArrayList;
 import java.util.List;

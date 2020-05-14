@@ -1,4 +1,4 @@
-package by.nareiko.multuthreading.entity;
+package by.nareiko.multithreading.entity;
 
 import java.util.Objects;
 
