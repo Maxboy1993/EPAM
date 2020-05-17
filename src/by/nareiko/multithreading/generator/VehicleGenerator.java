@@ -14,7 +14,6 @@ import java.util.concurrent.TimeUnit;
 
 public class VehicleGenerator implements Callable<List<Vehicle>> {
     private int vehicleCount;
-    Vehicle vehicle;
     VehicleType vehicleType;
 
     public VehicleGenerator(int vehicleCount) {
@@ -22,17 +21,17 @@ public class VehicleGenerator implements Callable<List<Vehicle>> {
     }
 
     @Override
-    public List<Vehicle> call() throws Exception {
+    public List<Vehicle> call() {
+        Thread.currentThread().getState();
         List<Vehicle> vehicles = new ArrayList<>();
         int count = 0;
         double weight = 0;
         double area = 0;
         while (count < vehicleCount
-                && weight <= Ferry.FERRY_AREA_CAPACITY
-                && area <= Ferry.FERRY_WEIGHT_CAPACITY){
+               ){
             Thread.currentThread().setName(" Generator ship");
             vehicleType = getRandomType();
-            vehicle = new Vehicle(count+1, vehicleType);
+            Vehicle vehicle = new Vehicle(count+1, vehicleType);
             vehicles.add(vehicle);
             count++;
             weight += vehicle.getWeight();

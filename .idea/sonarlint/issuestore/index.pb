@@ -7,3 +7,13 @@ _
 /src/by/nareiko/multithreading/entity/Ferry.java,6\1\61db7e3a405b460d216a7b56e16af585431f25f8
 m
 =src/by/nareiko/multithreading/generator/VehicleGenerator.java,7\0\701bcb70b8f1e13c04a119658c725b9fccdb8e0d
+b
+2src/by/nareiko/shape/dao/impl/TriangleDaoImpl.java,3\d\3dd14c8b958c0ef420974331eeb52ed9ea91aa75
+i
+9src/by/nareiko/multithreading/starter/VehicleStarter.java,b\4\b41836ccdcbaf7e200375a9bf2f4960a206d3f6b
+r
+Bsrc/by/nareiko/multithreading/starter/impl/VehicleStarterImpl.java,9\5\95741768792c1c4c7de7377f3c39d809077ee367
+^
+.src/by/nareiko/multithreading/runner/Main.java,b\f\bf3fa7d2640c7428ea6f56c2b5e12efa5d5d45d7
+^
+.src/by/nareiko/multithreading/entity/Pier.java,3\8\38b0b502b2368dac48e319ddbb6c28a279dfac05

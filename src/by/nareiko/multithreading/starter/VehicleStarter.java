@@ -1,6 +1,8 @@
-package by.nareiko.multuthreading.starter;
+package by.nareiko.multithreading.starter;
 
-import by.nareiko.multuthreading.entity.Vehicle;
+
+
+import by.nareiko.multithreading.entity.Vehicle;
 
 import java.util.List;
 

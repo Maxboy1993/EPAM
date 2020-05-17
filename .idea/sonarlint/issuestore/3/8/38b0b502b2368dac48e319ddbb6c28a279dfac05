@@ -1,0 +1,14 @@
+
+c
+java:S3457"AFormat specifiers should be used instead of string concatenation.(û‹î¨úÿÿÿÿ8‰áÎ¤¢.
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8†è£¢.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¾ã§¡¢.
+~
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(û‹î¨úÿÿÿÿ8‰áÎ¤¢.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ã§¡¢.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÄÜëüÿÿÿÿ8Êõ”£¢.
+]	java:S125"<This block of commented-out lines of code should be removed.(‚·Úšøÿÿÿÿ8ĞıÎ¤¢.

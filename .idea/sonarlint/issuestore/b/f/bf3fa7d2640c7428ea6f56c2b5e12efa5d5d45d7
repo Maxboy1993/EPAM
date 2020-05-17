@@ -1,0 +1,11 @@
+
+f
+java:S2147 "DCombine this catch with the one at line 30, which has the same body.(åþŒóùÿÿÿÿ8ÐŽô£¢.
+E
+java:S1148!"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÐŽô£¢.
+E
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ÐŽô£¢.
+e
+java:S1128"CRemove this unused import 'by.nareiko.multithreading.entity.Ferry'.(ô½÷ãùÿÿÿÿ8¹˜´¢¢.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÐŽô£¢.

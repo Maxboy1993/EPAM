@@ -1,7 +1,15 @@
 
+H
+java:S1481"+Remove this unused "weight" local variable.(µ¿äÄ8îŒ€£¢.
 >
-java:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
-\
-java:S2142*"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
 3
-java:S21192"Save and re-use this "Random".(¼ÝÅf
+java:S21191"Save and re-use this "Random".(¼ÝÅf
+e
+java:S1128"CRemove this unused import 'by.nareiko.multithreading.entity.Ferry'.(ô½÷ãùÿÿÿÿ8îŒ€£¢.
+F
+java:S1481")Remove this unused "area" local variable.(©ûÐÕ8îŒ€£¢.
+b
+java:S2184""@Cast one of the operands of this addition operation to a "long".(®Ä÷Ûùÿÿÿÿ8îŒ€£¢.
+\
+java:S2142)"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

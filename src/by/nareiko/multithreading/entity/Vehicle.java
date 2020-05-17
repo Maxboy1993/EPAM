@@ -1,8 +1,9 @@
 package by.nareiko.multithreading.entity;
 
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
-public class Vehicle extends Thread {
+public class Vehicle implements Runnable {
     private double weight;
     private double area;
     private long id;
@@ -19,8 +20,14 @@ public class Vehicle extends Thread {
 
     @Override
     public void run(){
-        Ferry ferry = Ferry.getInstance();
-        ferry.addVehicle(this);
+        Thread.currentThread().getState();
+        try {
+            Ferry ferry = Ferry.getInstance();
+            ferry.addVehicle(this);
+            TimeUnit.MILLISECONDS.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public double getWeight() {
