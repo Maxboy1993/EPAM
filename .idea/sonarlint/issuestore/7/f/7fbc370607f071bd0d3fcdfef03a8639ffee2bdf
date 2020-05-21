@@ -1,0 +1,15 @@
+
+>
+java:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148%"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>
+java:S1148'"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Z
+java:S2147$"DCombine this catch with the one at line 34, which has the same body.(Ã‡²ö
+Z
+java:S2147&"DCombine this catch with the one at line 34, which has the same body.(ï­£Ä
+H
+java:S2755"-Disable XML external entity (XXE) processing.(ƒ”±êùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ËŽŠ×
+S	java:S106"9Replace this use of System.out or System.err by a logger.(œ±Îˆûÿÿÿÿ

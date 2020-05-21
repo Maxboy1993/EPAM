@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<papers>
+    <magazine serialNumber="1" >
+        <title>Fashion</title>
+        <periodical>monthly</periodical>
+        <isColour>true</isColour>
+        <volume>45</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2020-05-20</publishingDate>
+    </magazine>
+    <newspaper serialNumber="2">
+        <title>Chronics</title>
+        <periodical>weekly</periodical>
+        <isColour>false</isColour>
+        <volume>14</volume>
+        <isGlossy>false</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2020-04-20</publishingDate>
+    </newspaper>
+    <booklet serialNumber="3">
+        <title>Fast cooking</title>
+        <periodical>monthly</periodical>
+        <isColour>true</isColour>
+        <volume>8</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>false</subscription>
+        <publishingDate>2020-05-19</publishingDate>
+    </booklet>
+    <magazine serialNumber="4">
+        <title>Clothes</title>
+        <periodical>monthly</periodical>
+        <isColour>true</isColour>
+        <volume>80</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>false</subscription>
+        <publishingDate>2019-12-20</publishingDate>
+    </magazine>
+    <newspaper serialNumber="5">
+        <title>Minsk News</title>
+        <periodical>weekly</periodical>
+        <isColour>true</isColour>
+        <volume>20</volume>
+        <isGlossy>false</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2019-10-17</publishingDate>
+    </newspaper>
+    <booklet serialNumber="6">
+        <title>Doors</title>
+        <periodical>monthly</periodical>
+        <isColour>true</isColour>
+        <volume>10</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>false</subscription>
+        <publishingDate>2020-01-20</publishingDate>
+    </booklet>
+    <magazine serialNumber="7">
+        <title>Real Motors</title>
+        <periodical>monthly</periodical>
+        <isColour>true</isColour>
+        <volume>100</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2020-03-06</publishingDate>
+    </magazine>
+    <newspaper serialNumber="8">
+        <title>Daily life</title>
+        <periodical>weekly</periodical>
+        <isColour>true</isColour>
+        <volume>12</volume>
+        <isGlossy>false</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2020-05-12</publishingDate>
+    </newspaper>
+    <booklet serialNumber="9">
+        <title>Cosmetics</title>
+        <periodical>weekly</periodical>
+        <isColour>true</isColour>
+        <volume>20</volume>
+        <isGlossy>true</isGlossy>
+        <subscription>true</subscription>
+        <publishingDate>2020-02-07</publishingDate>
+    </booklet>
+</papers>

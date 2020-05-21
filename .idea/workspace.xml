@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1ff5c6e-ffa4-4b94-ac83-c2ec4c087f88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61db7e3a405b460d216a7b56e16af585431f25f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/61db7e3a405b460d216a7b56e16af585431f25f8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/701bcb70b8f1e13c04a119658c725b9fccdb8e0d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/701bcb70b8f1e13c04a119658c725b9fccdb8e0d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71298abf84aa33d537bec82d982199ebaa2c7061" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71298abf84aa33d537bec82d982199ebaa2c7061" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/entity/Booklet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/entity/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/entity/Newspaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/entity/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/parser/DOMParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/by/nareiko/xml/parser/papers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NareikoML/META-INF/NareikoML.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NareikoML/by/nareiko/shape/entity/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NareikoML/by/nareiko/shape/entity/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/NareikoML/META-INF/NareikoML.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/NareikoML/test/by/nareiko/shape/dao/impl/TriangleDaoImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/NareikoML/test/by/nareiko/shape/service/impl/TriangleServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/NareikoML/test/by/nareiko/shape/validator/TriangleValidatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/NareikoML/test/by/nareiko/shapes/parser/impl/TriangleParserImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Ferry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Ferry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/entity/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/generator/VehicleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/generator/VehicleGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/starter/VehicleStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/starter/VehicleStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/nareiko/multithreading/starter/impl/VehicleStarterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/nareiko/multithreading/starter/impl/VehicleStarterImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +74,21 @@
       <recent name="by.nareiko.shapes.creator.impl" />
       <recent name="test.by.nareiko.shape.creator.impl" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\NareikoML\src\by\nareiko\shapes\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="by.nareiko.shape.parser.impl" />
       <recent name="temp.shapes" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.nareiko.xml.parser" />
       <recent name="by.nareiko.shapes.entity" />
       <recent name="by.nareiko.shapes.dao" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\EPAM\src\by\nareiko\xml\parser" />
+      <recent name="D:\NareikoML\src\by\nareiko\shapes\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -241,6 +234,9 @@
       <workItem from="1589522584362" duration="4329000" />
       <workItem from="1589705470164" duration="11097000" />
       <workItem from="1589751094521" duration="431000" />
+      <workItem from="1589815023786" duration="101000" />
+      <workItem from="1589893196208" duration="6692000" />
+      <workItem from="1589951630111" duration="7267000" />
     </task>
     <servers />
   </component>
@@ -248,15 +244,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="389" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589741669103">
+    <state x="389" y="152" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589904318553">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="389" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1589741669103" />
-    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1589746531453">
+    <state x="389" y="152" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1589904318553" />
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1589954327944">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="357" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1586352167280" />
-    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589746531453" />
+    <state x="446" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1589954327944" />
     <state x="371" y="125" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586334280990">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -332,10 +328,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="449" y="125" key="chooseDestDirectoryDialog/0.0.1280.689@0.0.1280.689" timestamp="1589352766781" />
-    <state x="340" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1589751109318">
+    <state x="340" y="173" key="com.intellij.ide.util.TipDialog" timestamp="1589815122232">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="340" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1589751109318" />
+    <state x="340" y="173" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1589815122232" />
     <state x="216" y="269" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586276817331">
       <screen x="0" y="0" width="1024" height="738" />
     </state>

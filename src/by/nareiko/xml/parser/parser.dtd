@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE papers [
+        <!ELEMENT papers (magazine|newspaper|booklet)*>
+        <!ELEMENT magazine (title|periodical|isColour|volume|isGlossy|subscription|publishingDate)*>
+        <!ATTLIST magazine
+                serialNumber CDATA #REQUIRED>
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT periodical (#PCDATA)>
+        <!ELEMENT isColour (#PCDATA)>
+        <!ELEMENT volume (#PCDATA)>
+        <!ELEMENT isGlossy (#PCDATA)>
+        <!ELEMENT subscription (#PCDATA)>
+        <!ELEMENT publishingDate (#PCDATA)>
+        <!ELEMENT newspaper (title|periodical|isColour|volume|isGlossy|subscription|publishingDate)*>
+        <!ATTLIST newspaper
+                serialNumber CDATA #REQUIRED>
+        <!ELEMENT booklet (title|periodical|isColour|volume|isGlossy|subscription|publishingDate)*>
+        <!ATTLIST booklet
+                serialNumber CDATA #REQUIRED>
+        ]>

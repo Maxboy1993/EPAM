@@ -1,0 +1,43 @@
+
+j
+java:S3986"HMake sure that Week Year "YYYY" is expected here instead of Year "yyyy".(Š£Í™ÿÿÿÿÿ8±“¬†£.
+L
+java:S1481"*Remove this unused "title" local variable.(†¢¢ôùÿÿÿÿ8±“¬†£.
+H
+java:S1452"&Remove usage of generic wildcard type.(ÎÃõ úÿÿÿÿ8±“¬†£.
+E
+java:S1148("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌÇŒ…£.
+a
+java:S2147)"DCombine this catch with the one at line 39, which has the same body.(Ã‡²ö8ÌÇŒ…£.
+J
+java:S2755 "-Disable XML external entity (XXE) processing.(ÅŠ÷á8ÌÇŒ…£.
+a
+java:S2147+"DCombine this catch with the one at line 39, which has the same body.(ï­£Ä8ÌÇŒ…£.
+K
+java:S1481"/Remove this unused "periodical" local variable.(‘éÓd8±“¬†£.
+O
+java:S1128"-Remove this unused import 'org.w3c.dom.Node'.(ùŠÿËıÿÿÿÿ8±“¬†£.
+I
+java:S1481"'Remove this unused "id" local variable.(ÓÍõ»ÿÿÿÿÿ8±“¬†£.
+U
+java:S1481"3Remove this unused "publishingDate" local variable.(éá˜½şÿÿÿÿ8±“¬†£.
+M
+java:S1481"+Remove this unused "volume" local variable.(Ÿ¯º‡úÿÿÿÿ8±“¬†£.
+N
+java:S1128"1Remove this unused import 'java.text.DateFormat'.(÷Œá¼8±“¬†£.
+E
+java:S1148*"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌÇŒ…£.
+I
+java:S1481"-Remove this unused "isColour" local variable.(Ä›48±“¬†£.
+N
+java:S1481"1Remove this unused "subscription" local variable.(Ìù‚Ë8±“¬†£.
+Q
+java:S1481"/Remove this unused "dateFormat" local variable.(Š£Í™ÿÿÿÿÿ8±“¬†£.
+`
+java:S1854">Remove this useless assignment to local variable "dateFormat".(Š£Í™ÿÿÿÿÿ8±“¬†£.
+E
+java:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌÇŒ…£.
+Z
+java:S1854$"8Remove this useless assignment to local variable "list".(¼Èÿÿÿÿÿ8Ğõ¸†£.
+K
+java:S1481$")Remove this unused "list" local variable.(¼Èÿÿÿÿÿ8Ğõ¸†£.
